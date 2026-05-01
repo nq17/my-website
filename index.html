@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puma</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindWell - Mental Health</title>
+  <script src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Our Puma Vacation Website</h1>
-        </header>
-        <main>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">PumaNav</a> 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./table.html">Table</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./weather.html">Weather</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <video width="420" height="240" controls onloadstart="videoFunction()">
-                <source src="myMovie.mp4" type="video/mp4">`
-                Your browser does not support the video element
-            </video>
-            <p id="myComment">My Personal Video: </p>
-            <audio controls>
-                <source src="mySound.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-            </audio>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pZ7WLQbLDn8?si=pggFmPtkltemfxHr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </main>
-        <footer>
-            <p>Copyright © 2026 Nomar Quiles</p>
-        </footer>
-    </div>
+
+  <h1>Welcome to MindWell</h1>
+
+  <a href="index.html">Home</a> |
+  <a href="table.html">Resources</a> |
+  <a href="about.html">Contact</a> |
+  <a href="depanxiety.html">Depression and Anxiety</a>
+
+  <hr>
+
+  <p>MindWell is a website dedicated to mental health awareness. Our goal is to provide helpful information and resources for anyone who is struggling with their mental health.</p>
+
+  <p>Mental health is just as important as physical health. 1 in 5 people experience a mental health condition every year, but most go without support. You are not alone.</p>
+
+  <hr>
+
+  <h2>Featured Video</h2>
+  <p id="videoComment">Watch this video to learn more about mental health:</p>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/BpzVvUGfJeA"
+    title="Mental Health Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    onload="videoFunction()">
+  </iframe>
+
+  <hr>
+
+  <h2>What We Cover</h2>
+  <ul>
+    <li>Depression and Anxiety</li>
+    <li>How to seek help</li>
+    <li>Crisis resources</li>
+    <li>Self-care tips</li>
+  </ul>
+
+  <hr>
+
+  <p>If you are in crisis, call or text <b>988</b></p>
+
+  <p>Copyright &copy; 2026 Nomar Quiles</p>
+
 </body>
 </html>
